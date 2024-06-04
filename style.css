@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+body{
+    background-image: url(images/background.png);
+    background-size: cover;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    max-width: 1280px;
+    width: 100%;
+    position: absolute;
+    top: 35px;
+    font-size: 20px;
+    color: white;
+}
+
+
+form{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.9px);
+    -webkit-backdrop-filter: blur(10.9px);
+    border: 1px solid rgba(255, 255, 255, 0.38);
+    width: 30%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+input{
+    margin-bottom: 15px;
+    border: none;
+    height: 40px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 4px;
+}
+
+button{
+    width: 100px;
+    height: 35px;
+    /* font-size: 18px; */
+    
+    border: none;
+    cursor: pointer;
+}
+
+table{
+    width: 650px;
+    width: 70%;
+    /* height: 400px; */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.9px);
+    -webkit-backdrop-filter: blur(10.9px);
+    border: 1px solid rgba(255, 255, 255, 0.38);
+    text-align: center;
+   
+
+}
+
+
+
+table td {
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 0px;
+}
+
+
+table td {
+    border-bottom: 1px solid white;
+}
+
+
+table th{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+table thead tr{
+    font-size: 18px;
+    margin: 10px;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1{
+    text-align: center;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    font-size: 19px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista Telefonica</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Lista telefonica
+        </h1>
+    </header>
+    <div class="container">
+        <form id="form">
+            <input id="input-nome" type="text" placeholder="Nome" required>
+            <input id="input-tel" type="tel"  required="" placeholder="Telefone" pattern="\d{2}\d{9}" maxlength="11" title="O número deve seguir o seguinte formato DDD + 9 números">
+            <button type="submit">Cadastrar</button>
+        </form>
+        <table cellspacing="0" >
+            <thead>
+                <tr>
+                    <th>
+                        Nome
+                    </th>
+                    <th>
+                        Número
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        <span>
+            &copy; Henry - Todos os direitos reservados. 2024
+        </span>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
